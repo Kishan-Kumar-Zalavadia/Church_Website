@@ -198,6 +198,7 @@ html {
 
     .topnav {
         background-color: #333;
+        z-index: 9999;
     }
 
     .topnav a {
@@ -211,10 +212,9 @@ html {
     }
 
     .topnav.responsive {
-        position: relative;
         margin-left: auto;
         float: right;
-        width: 300px;
+        width: 40%;
     }
 
     .topnav.responsive .icon {
@@ -244,6 +244,7 @@ html {
     }
 
     .dropdown .dropbtn {
+        z-index: 1000;
         color: white;
     }
     

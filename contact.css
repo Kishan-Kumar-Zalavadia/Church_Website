@@ -177,8 +177,7 @@ html {
 
 .dropdown:hover .dropdown-content {
     display: block;
-}
-
+} 
 @media screen and (max-width: 1200px) {
 
     .topnav a,
@@ -195,9 +194,9 @@ html {
     .dropdown:hover .dropbtn {
         color: var(--main--color);
     }
-
     .topnav {
         background-color: #333;
+        z-index: 9999;
     }
 
     .topnav a {
@@ -211,10 +210,9 @@ html {
     }
 
     .topnav.responsive {
-        position: relative;
         margin-left: auto;
         float: right;
-        width: 300px;
+        width: 40%;
     }
 
     .topnav.responsive .icon {
