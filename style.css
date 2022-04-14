@@ -886,6 +886,10 @@ footer span a:hover {
             background: url(images/background.jpeg) no-repeat;
             background-size: cover;
         }
+        .addres{
+            display: none;
+        }
+
     }
 
     @media(max-width:690px) {
@@ -897,12 +901,14 @@ footer span a:hover {
             /*3 cards arrange and send it down*/
             width: 100%;
         }
+        
     }
 
     @media(max-width:500px) {
         .home .home-content .text-2 {
             font-size: 50px;
         }
+        
     }
 }
 
