@@ -936,8 +936,11 @@ footer span a:hover {
     vertical-align: middle;
     border: 2px solid black;
     border-radius: 5px;
+    transition: transform .5s ease;
   }
-  
+  .column img:hover{
+    transform: scale(1.1);
+  }
   @media (max-width: 800px) {
     .column {
       flex: 50%;
