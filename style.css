@@ -889,6 +889,9 @@ footer span a:hover {
         .addres{
             display: none;
         }
+        .ccolumn p{
+            letter-spacing: 0px;
+        }
 
     }
 
@@ -901,14 +904,18 @@ footer span a:hover {
             /*3 cards arrange and send it down*/
             width: 100%;
         }
-        
+        .ccolumn p{
+            letter-spacing: 0px;
+        }
     }
 
     @media(max-width:500px) {
         .home .home-content .text-2 {
             font-size: 50px;
         }
-        
+        .ccolumn p{
+            letter-spacing: 0px;
+        }
     }
 }
 
