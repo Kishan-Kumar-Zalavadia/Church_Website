@@ -646,7 +646,7 @@ section .title::after {
     background-color: rgb(255, 255, 255);
 }
 
-.contact .contact-content .column {
+.contact .contact-content .ccolumn {
     width: calc(50% - 30px);
 }
 
@@ -656,62 +656,62 @@ section .title::after {
     margin-bottom: 20px;
 }
 
-.contact .contact-content .left p {
+.contact .contact-content .cleft p {
     text-align: justify;
 }
 
-.contact .contact-content .left .icon {
+.contact .contact-content .cleft .icon {
     margin: 10px 0;
 }
 
-.contact .contact-content .row {
+.contact .contact-content .crow {
     display: flex;
     height: 60px;
     align-items: center;
 }
 
-.contact .contact-content .row .info {
+.contact .contact-content .crow .info {
     margin-left: 30px;
 }
 
-.contact .contact-content .row i {
+.contact .contact-content .crow i {
     font-size: 30px;
 }
 
-.contact .contact-content .row .info .head {
+.contact .contact-content .crow .info .head {
     font-weight: 500;
 }
 
-.contact .contact-content .row .info .sub-title {
+.contact .contact-content .crow .info .sub-title {
     color: rgb(134, 134, 134);
 }
 
-.contact .right form .fields {
+.contact .cright form .fields {
     display: flex;
 }
 
-.contact .right form .field,
-.contact .right form .fields .field {
+.contact .cright form .field,
+.contact .ccright form .fields .field {
     height: 45px;
     width: 100%;
     margin-bottom: 15px;
 }
 
-.contact .right form .textarea {
+.contact .cright form .textarea {
     height: 80px;
     width: 100%;
 }
 
-.contact .right form .name {
+.contact .cright form .name {
     margin-right: 10px;
 }
 
-.contact .right form .email {
+.contact .cright form .email {
     margin-left: 10px;
 }
 
-.contact .right form .field input,
-.contact .right form .textarea textarea {
+.contact .cright form .field input,
+.contact .cright form .textarea textarea {
     height: 100%;
     width: 100%;
     border: 1px solid lightgray;
@@ -722,17 +722,17 @@ section .title::after {
     font-family: 'Poppins',sans-serif;
 }
 
-.contact .right form .textarea textarea {
+.contact .cright form .textarea textarea {
     padding-top: 10px;
     resize: none;
 }
 
-.contact .right form .button {
+.contact .cright form .button {
     height: 47px;
     width: 170px;
 }
 
-.contact .right form .button button {
+.contact .cright form .button button {
     width: 100%;
     height: 100%;
     border: 2px solid var(--main--color);
@@ -745,7 +745,7 @@ section .title::after {
     transition: all 0.3s ease;
 }
 
-.contact .right form .button button:hover {
+.contact .cright form .button button:hover {
     color: var(--main--color);
     background: none;
 }
@@ -770,7 +770,7 @@ section .title::after {
     color: #bc2a8d;
 }
 
-.contact .icons .row a:hover {
+.contact .icons .crow a:hover {
     font-size: 45px;
 }
 
