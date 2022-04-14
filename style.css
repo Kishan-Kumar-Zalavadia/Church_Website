@@ -37,7 +37,7 @@ html::-webkit-scrollbar {
 }
 
 :root {
-    --main--color: rgb(235, 218, 66);
+    --main--color: rgb(255, 183, 0);
 }
 
 html {
@@ -53,7 +53,7 @@ html {
 /* navbar styling */
 .navbar {
     padding: 30px 0;
-    background: white;
+    background: rgb(230, 230, 230);
     width: 100%;
     z-index: 999;
     font-family: 'Ubuntu', sans-serif;
@@ -404,8 +404,9 @@ section .title::after {
     background: rgb(242, 242, 242);
     
 }
-.about .title::after {
-    content: "";
+.aboutPastor .title::after {
+    content: "----------------";
+    background:rgb(242,242,242);
 }
 
 .about .about-content .left {
@@ -455,7 +456,7 @@ section .title::after {
 
 .services .title::before,
 .teams .title::before,
-.map .title::before 
+.map .title::before
 {
     background-color: white;
 }
@@ -466,6 +467,7 @@ section .title::after {
     background-color: black;
     content: "----------------";
 }
+
 
 .services .serv-content .card {
     background-color: #222;
@@ -549,7 +551,7 @@ section .title::after {
     color: rgb(0, 0, 0);
 }
 
-.teams .title::after {
+.teams .title::after{
     background: white;
     content: "----------------";
 }
@@ -947,4 +949,10 @@ footer span a:hover {
       flex: 100%;
       max-width: 100%;
     }
+  }
+
+
+  .churchHistory{
+      background: url(images/background.jpeg) no-repeat;
+      background-size: cover ;
   }

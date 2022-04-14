@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <title>Events</title>
+    <title>Church History</title>
     <link rel="stylesheet" href="style.css">
+    <!--Navbar v-->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!--scroll-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
         #active {
             color: rgb(255, 183, 0);
@@ -31,19 +34,20 @@
         <nav class="navbar">
             <div class="max-width">
                 <div class="logo"><a href="#">Baptist <span>Church</span></a></div>
+
             </div>
         </nav>
         <div class="topnav" id="myTopnav">
             <a href="index.html" class="menu-btn">Home</a>
             <div class="dropdown">
-                <button class="dropbtn">About Us
+                <button class="dropbtn" id="active">About Us
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Milestone</a>
+                    <!-- <a href="#">Milestone</a>
                     <a href="#">Belief</a>
-                    <a href="#">Vision</a>
-                    <a href="#">Church History</a>
+                    <a href="#">Vision</a> -->
+                    <a href="churchHistory.html" id="active">Church History</a>
                 </div>
             </div>
             <div class="dropdown">
@@ -79,11 +83,11 @@
                 </div>
             </div>
             <div class="dropdown">
-                <button class="dropbtn" id="active">Events
-                    <i class="fa fa-caret-down" ></i>
+                <button class="dropbtn">Events
+                    <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="event.html"  id="active">New Year Celebrations</a>
+                    <a href="event.html">New Year Celebrations</a>
                     <a href="#">Good Friday Service</a>
                     <a href="#">VBS Celebrations</a>
                     <a href="#">Harvest Festival</a>
@@ -96,64 +100,49 @@
             <a href="contactus.html">Contact Us</a>
             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-
-
-
         <!--image-->
-        <div class="image">
+        <!-- <div class="image">
             <div class="max-width">
 
             </div>
-        </div>
-        <section class="event" id="event">
-                <h2 class="title">Event</h2>
-                <div class="row">
-                    <div class="column">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                    </div>
+        </div> -->
+        <!-- about pastor section start-->
+        <section class="about churchHistory" id="about">
+            <div class="max-width">
+                <h2 class="title">Church History</h2>
+                <div class="about-content">
+                    <div class="column1 right" style="width: 100%;">
+                        <div class="text"></div>
+                        <p>Baptist Church Dilshuknagar was started with a gathering of few People in
+                            the year
+                            As the anointing of the Lord kept pouring out on Rev. B.
+                            Samuel Babu and his team, the church has grown in leaps and bounds.
+                            Today, more than 1,000 people worship across 2 services on every Sunday
+                            of the week.
+                            <br>
+                            <br>
+                            The Church Services run on a simple yet powerful schedule. A charged and
+                            spirit-filled worship service is led by the Holy Spirit God, the power of God
+                            starts working in the hearts and minds of people. A message in both the
+                            services based completely on the Scripture Word of God), is shared by the
+                            Pastors.
+                            <br>
+                            <br>
+                            Since the early days of the Baptist movement, various denominations have
+                            adopted common confessions of faith as the basis for cooperative work
+                            among churches. Baptist church Dilshuknagar adopted it as a statement of
+                            faith and beliefs in Baptist theology as an evangelical theology. It is based
+                            on believers' Church doctrine.
+                            <br>
+                            <br>
+                            The Church has specific wings handling Adults, Women ,Youth and
+                            Children.</p>
 
-                    <div class="column">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                    </div>
-
-                    <div class="column">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                    </div>
-
-                    <div class="column">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
-                        <img src="images/background.jpeg" style="width:100%">
                     </div>
                 </div>
+            </div>
         </section>
-
-
         <script src="script.js"></script>
-
-
 </body>
 
 </html>
