@@ -408,7 +408,7 @@ section .title::after {
 }
 .aboutPastor .title::after {
     content: "----------------";
-    background:rgb(242,242,242);
+    background:rgb(230, 230, 230);
 }
 
 .about .about-content .left {
@@ -457,19 +457,16 @@ section .title::after {
 }
 
 .services .title::before,
-.teams .title::before,
 .map .title::before
 {
     background-color: white;
 }
 
 .services .title::after,
-.teams .title::after,
 .map .title::after {
     background-color: black;
     content: "----------------";
 }
-
 
 .services .serv-content .card {
     background-color: #222;
@@ -554,7 +551,7 @@ section .title::after {
 }
 
 .teams .title::after{
-    background: white;
+    background: rgb(230, 230, 230);;
     content: "----------------";
 }
 
