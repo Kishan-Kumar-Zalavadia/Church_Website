@@ -78,7 +78,7 @@ html {
 .navbar .logo a span {
     color: var(--main--color);
     transition: all 0.3s ease;
-
+    font-size: 25px;
 }
 
 .navbar.sticky .logo a span {
