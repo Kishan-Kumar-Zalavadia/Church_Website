@@ -53,7 +53,7 @@ html {
 /* navbar styling */
 .navbar {
     padding: 30px 0;
-    background: rgb(230, 230, 230);
+    background: rgb(0, 0, 0);
     width: 100%;
     z-index: 999;
     font-family: 'Ubuntu', sans-serif;
@@ -64,7 +64,7 @@ html {
 .navbar .max-width {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 
 .navbar .logo a {
@@ -119,7 +119,7 @@ html {
 .topnav a {
     float: left;
     display: block;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -139,7 +139,7 @@ html {
     font-size: 17px;
     border: none;
     outline: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 14px 16px;
     background-color: inherit;
     font-family: "Poppins" , sans-serif;
@@ -308,7 +308,6 @@ html {
 /* home section syling */
 .home {
     display: flex;
-    height: 100vh;
     color: rgb(0, 0, 0);
     min-height: 500;
     font-family: 'Ubuntu', sans-serif;
@@ -321,23 +320,27 @@ html {
 }
 
 .home .home-content .text-1 {
-
-    font-family: 'Beau Rivage', cursive;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bolder;
 }
 
 .home .home-content .text-2 {
-    font-size: 75px;
+    font-size: 50px;
     font-weight: 600;
     margin-left: -3px;
 }
 
-.home .home-content .text-2 span {
+.home .home-content .text-3 {
     color: var(--main--color);
     font-weight: 500;
 }
 
+.home .home-content .text{
+    display: flex;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -3px;
+}
 
 
 /* similar syling code*/
@@ -361,7 +364,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
 }
 
 section .title {
@@ -471,6 +474,8 @@ section .title::after {
 .services .serv-content .card {
     background-color: #222;
     width: calc(33% - 20px);
+    height: 250px;
+    margin: 5px;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -676,6 +681,10 @@ section .title::after {
     font-size: 30px;
 }
 
+.contact i {
+    font-size: 30px;
+}
+
 .contact .contact-content .crow .info .head {
     font-weight: 500;
 }
@@ -730,7 +739,7 @@ section .title::after {
     width: 170px;
 }
 
-.contact .cright form .button button {
+/* .contact .cright form .button button {
     width: 100%;
     height: 100%;
     border: 2px solid var(--main--color);
@@ -741,6 +750,25 @@ section .title::after {
     border-radius: 6px;
     cursor: pointer;
     transition: all 0.3s ease;
+} */
+
+.contact .contact-content .button a{
+    width: fit-content;
+    padding: 5px;
+    height: 100%;
+    border: 2px solid var(--main--color);
+    background: var(--main--color);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact .contact-content .button a:hover {
+    color: var(--main--color);
+    background: none;
 }
 
 .contact .cright form .button button:hover {
@@ -760,12 +788,24 @@ section .title::after {
     color: #4267B2;
 }
 
-#messenger {
-    color: #006AFF;
+#youtube {
+    color: #FF0000;
 }
 
 #instagram {
     color: #bc2a8d;
+}
+
+#twitter {
+    color: #00acee;
+}
+
+#whatsapp{
+    color: green;
+}
+
+#email{
+    color: #EA4335;
 }
 
 .contact .icons .crow a:hover {
@@ -816,7 +856,13 @@ footer span a:hover {
     .max-width {
         padding: 0 50px;
     }
-
+    .home .home-content .text{
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        font-weight: 600;
+        margin-left: -3px;
+    }
     @media (max-width:947px) {
         .max-width {
             padding: 0 50px;
@@ -831,13 +877,6 @@ footer span a:hover {
             content: "\f00d";
         }
 
-        .home .home-content .text-2 {
-            font-size: 70px;
-        }
-
-        .home .home-content .text-3 {
-            font-size: 35px;
-        }
 
         .home .home-content a {
             font-size: 23px;
@@ -886,7 +925,13 @@ footer span a:hover {
         .ccolumn p{
             letter-spacing: 0px;
         }
-
+        .home .home-content .text{
+            display: flex;
+            flex-direction: column;
+            font-size: 50px;
+            font-weight: 600;
+            margin-left: -3px;
+        }
     }
 
     @media(max-width:690px) {
@@ -901,14 +946,41 @@ footer span a:hover {
         .ccolumn p{
             letter-spacing: 0px;
         }
+        .home .home-content{
+            display: flex;
+            flex-direction: column;
+        }
+        .home .home-content .text-1 {
+            font-size: 25px;
+        }
+        .home .home-content .text-2 {
+            font-size: 35px;
+            font-weight: bolder;
+        }
+        .home .home-content .text .text-3 {
+            font-size: 35px;
+            font-weight: bolder;
+        }
     }
 
     @media(max-width:500px) {
-        .home .home-content .text-2 {
-            font-size: 50px;
+        .home .home-content{
+            display: flex;
+            flex-direction: column;
         }
         .ccolumn p{
             letter-spacing: 0px;
+        }
+        .home .home-content .text-1 {
+            font-size: 25px;
+        }
+        .home .home-content .text-2 {
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        .home .home-content .text .text-3 {
+            font-size: 25px;
+            font-weight: bolder;
         }
     }
 }

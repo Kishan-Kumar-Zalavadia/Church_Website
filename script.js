@@ -34,12 +34,12 @@ $(document).ready(function(){
     });
 
     //typing animation script
-    var typed = new Typed(".typing",{
+    /*var typed = new Typed(".typing",{
         strings: ["Baptist Church"],
         typedSpeed: 90,
         backSpeed: 90,
         loop: true,
-    });
+    });*/
     
 
 
