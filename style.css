@@ -963,7 +963,25 @@ footer span a:hover {
             font-weight: bolder;
         }
     }
-
+    @media(max-width:529px){
+        .crow-address {
+            margin-bottom: 30px;
+        }
+        .crow-phonemail{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 60px;
+        }
+        .crow-phonemail .info{
+            width: 100%;
+            margin-bottom: 20px;
+            
+        } 
+        .contact-content{
+            background-color: #222;
+            text-align: left;
+        }
+    }
     @media(max-width:500px) {
         .home .home-content{
             display: flex;
