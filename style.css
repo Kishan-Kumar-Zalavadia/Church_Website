@@ -778,36 +778,45 @@ section .title::after {
 
 #address {
     color: red;
+    color: var(--main--color);
 }
 
 #phone {
     color: #009E60;
+    color: var(--main--color);
     transform: rotate(90deg);
 }
 
 #facebook {
     color: #4267B2;
+    color: var(--main--color);
 }
 
 #youtube {
     color: #FF0000;
+    color: var(--main--color);
 }
 
 #instagram {
     color: #bc2a8d;
+    color: var(--main--color);
 }
 
 #twitter {
     color: #00acee;
+    color: var(--main--color);
 }
 
 #whatsapp{
     color: green;
+    color: var(--main--color);
 }
 
 #email{
     color: #EA4335;
+    color: var(--main--color);
 }
+
 
 .contact .icons .crow a:hover {
     font-size: 45px;
